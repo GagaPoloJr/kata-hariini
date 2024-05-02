@@ -42,9 +42,9 @@ function App() {
             <div className="mt-10 text-slate-100 font-bold text-center">
               {!isLoading && loadingImage && (
                 <>
-                  <div className="m-5 lg:m-0 relative w-400 h-300 bg-grey-500">
+                  <div className="m-5 lg:m-0 relative w-400 h-300 ">
                     <img
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover bg-red-500"
                       src={imageUrl}
                       alt=""
                     />
