@@ -34,7 +34,7 @@ function App() {
         <div className="flex pt-32 mx-auto">
           <div className="w-full flex flex-col justify-center items-center">
             <h1 className="text-4xl text-slate-200 font-semibold text-center">
-              Kata-Kata Hari ini 🔥 🔥
+              Kata-Kata Hari ini 🔥 🔥 - Anjay
             </h1>
             <div className="mt-5">
               <Button text="Generate" handleClick={generateWords} />
